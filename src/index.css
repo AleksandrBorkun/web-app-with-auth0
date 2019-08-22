@@ -36,7 +36,8 @@ nav li {
   float: left;
 }
 
-nav li a {
+nav li a,
+nav li button{
   display: block;
   color: white;
   text-align: center;
@@ -44,8 +45,10 @@ nav li a {
   text-decoration: none;
 }
 
-nav li a:hover {
+nav li a:hover,
+nav li button:hover {
   background-color: #d9390d;
+  cursor: pointer
 }
 
 nav button {

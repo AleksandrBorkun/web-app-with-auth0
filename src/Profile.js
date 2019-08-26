@@ -26,7 +26,7 @@ class Profile extends Component {
                 <img
                     style={{maxWidth:50, maxHeight: 50}}
                     src={profile.picture}
-                    alt="profile picture"
+                    alt="profile"
                 />
                 <pre>{JSON.stringify(profile, null, 2)}</pre>
             </>
